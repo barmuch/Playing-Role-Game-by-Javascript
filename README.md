@@ -2,9 +2,9 @@
 
 This is a simple role-playing game implemented in HTML, CSS, and JavaScript. In this game, players can explore different locations, buy items from the store, and fight various monsters. Below, you will find an overview of the game mechanics and features implemented in the code.
 
-**Game Mechanics**
+## Game Mechanics
 
-Player Stats
+### Player Stats
 
   XP: Experience points earned by defeating monsters.
   Health: Player's health points. If health reaches 0, the player loses the game.
@@ -12,7 +12,7 @@ Player Stats
   Current Weapon: Index representing the player's equipped weapon from the weapons array.
   Inventory: Array containing the player's inventory, initially holding a "stick".
 
-Locations
+### Locations
 
   Town Square: Starting location with options to go to the store, cave, or fight a dragon.
   Store: Location where players can buy health potions or upgrade weapons.  
@@ -23,7 +23,7 @@ Locations
   Win: Location displayed when the player defeats the final boss (dragon) and wins the game.
   Easter Egg: Location revealing a secret game with random numbers.
 
-Actions
+### Actions
 
   Buy Health: Allows players to purchase health potions if they have enough gold.
   Buy Weapon: Enables players to upgrade their weapons with sufficient gold.
@@ -38,9 +38,23 @@ Actions
   Gameplay: Follow the text prompts and use the provided buttons to navigate through locations, buy items, and fight monsters.
   Objective: Defeat the final boss (dragon) to win the game.
 
-Notes
+### Notes
 
 This game is implemented using basic HTML, CSS, and JavaScript.
 Explore different strategies and upgrade your equipment to increase your chances of winning.
 Enjoy the adventure and have fun playing the game!
 Feel free to modify and enhance the game according to your preferences or add new features to make it more engaging. Good luck and happy gaming!
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## Credits
+
+This web application was created by Akbar Muchlis.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
