@@ -1,9 +1,14 @@
 body {
-    background-color: #0a0a23
+    background-color: #308e3f;
+    display: flex;
+    justify-content: center; /* Menengahkan secara horizontal */
+    align-items: center; /* Menengahkan secara vertikal */
+    height: 100vh; /* Menggunakan tinggi viewport */
+    margin: 0;
 }
 
 #text {
-    background-color: #0a0a23;
+    background-color: #0f2c0c;
     color: #ffffff;
     padding: 10px;
     display: flex;  
@@ -21,7 +26,7 @@ body {
 
 #controls,
 #stats{
-    border: 1px solid #0a0a23;
+    border: 1px solid #39b361;
     color: #0a0a23;
     padding: 5px 10px;
     width: 100%;
@@ -47,9 +52,9 @@ body {
 button {
         cursor: pointer;
         color: #0a0a23;
-        background-color: #feac32;
-        background-image: linear-gradient(#fecc4c, #ffac33);
-        border: 3px solid #feac32;
+        background-color: #1e692c;
+        background-image: linear-gradient(#3db028, #39e13e);
+        border: 3px solid #17a41e;
         margin-left: auto;
         margin-right: auto;
     }
